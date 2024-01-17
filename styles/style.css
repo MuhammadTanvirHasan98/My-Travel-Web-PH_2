@@ -439,16 +439,42 @@ select,
    display:grid;
    grid-template-columns: repeat(3,1fr);
    gap: 30px;
+ 
  }
  .up-card{
    border: 2px solid tomato;
    border-radius: 20px;
+   margin-top: 20px;
+   height:550px;
    text-align: center;
    transition: transform ease-in 0.3s;
  }
+ .card-country{
+   color:#FF5400;
+   position: relative;
+   bottom: 220px;
+   left: 120px;
+   width: 50%;
+   border-radius: 16px;
+   background: rgba(255, 255, 255, 0.30);
+   right: 50px;
+   font-size: 34px;
+ }
+ .card-country:hover{
+  background-color:#f76b2562;
+  color:#fff;
+ }
+
+ .pricing{
+   font-size: 24px;
+   color: #131318;
+   font-weight: 800;
+  }
 
  .btn-b{
-   margin-top: 10px;
+   width: 80%;
+   height: 70px;
+   font-size:large;
  }
 .up-card:hover{
   transform: scale(1.1);
@@ -457,7 +483,7 @@ select,
  .up-card>img{
   border-radius: 20px 20px 0px 0px;
    width: 100%;
-   height: 80%;
+   height: 75%;
  }
 
  /* 5th section styles */
